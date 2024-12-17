@@ -165,3 +165,32 @@ footer a:hover {
 .proyectos a {
     color: #f5a623;
 }
+
+.botones-contacto {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-contacto:hover {
+    background-color: #0056b3;
+}
+
+.btn-contacto i {
+    margin-right: 8px;
+    font-size: 20px;
+}
